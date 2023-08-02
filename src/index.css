@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+/* @import url('https://fonts.cdnfonts.com/css/lemonmilk'); */
+@import "./font.css";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,797 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* navbar */
+.navbar-expand-lg {
+  border-bottom: 0.70px solid #000;
+}
+
+.navbar>.container {
+  padding: 0 10px;
+}
+
+.MuiGrid-container.nav-start-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-right: 0.70px solid #1A1A1A;
+  padding: 18px 10px;
+
+}
+
+.MuiGrid-container.nav-center-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.70px solid #1A1A1A;
+  padding: 22px 0;
+}
+
+.MuiGrid-container.nav-end-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1A1A1A !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 35px !important;
+  color: #5C5555;
+}
+
+/* Hero section */
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start !important;
+  align-items: flex-end !important;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 62px !important;
+  font-style: normal;
+  font-weight: 500;
+  padding: 8px 0;
+  letter-spacing: 0.992px;
+  text-transform: uppercase;
+  line-height: 6\45px !important;
+
+}
+
+h1 span {
+  margin: 0 0 -15px 45px;
+}
+
+.MuiGrid-container .left_Sec {
+  padding: 10px 100px;
+}
+
+.MuiGrid-container.hero_container {
+  border-left: 1px solid #1A1A1A;
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.left_Sec p {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  width: 600px;
+  padding: 20px 0px;
+  color: #1A1A1A;
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  /* 33px */
+  letter-spacing: 1.1px;
+}
+
+.left_Sec .price {
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20%;
+  height: 0px;
+  letter-spacing: 1.2px;
+}
+
+.MuiBox-root.button_bg {
+  border: 1px solid black;
+  height: 39px;
+  width: 98px;
+  position: relative;
+  top: 48px;
+  left: 10px;
+}
+
+.MuiButton-root.main_button {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  background: #FE682F;
+  color: #1A1A1A;
+  border-radius: 0px;
+}
+
+.arrow1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 150px;
+}
+
+.img_wrapper img {
+  border-radius: 240px;
+  width: 450px !important;
+  height: 650px
+}
+
+.left_trend_sec {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.mid_section {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.mid_section p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.352px;
+}
+
+.trend_sec p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.448px;
+  padding-left: 100px;
+}
+
+.container.trend_container {
+  margin-bottom: 45px;
+}
+
+.mid_section p span {
+  position: absolute;
+  right: 69%;
+  bottom: 1%;
+  z-index: -999;
+  width: 80px;
+  height: 97px;
+}
+
+@media(max-width:1024){
+  /* navbar */
+.navbar-expand-lg {
+  border-bottom: 0.70px solid #000;
+}
+
+.navbar>.container {
+  padding: 0 10px;
+}
+
+.MuiGrid-container.nav-start-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-right: 0.70px solid #1A1A1A;
+  padding: 18px 10px;
+
+}
+
+.MuiGrid-container.nav-center-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.70px solid #1A1A1A;
+  padding: 22px 0;
+}
+
+.MuiGrid-container.nav-end-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1A1A1A !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 35px !important;
+  color: #5C5555;
+}
+
+/* Hero section */
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start !important;
+  align-items: flex-end !important;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 62px !important;
+  font-style: normal;
+  font-weight: 500;
+  padding: 8px 0;
+  letter-spacing: 0.992px;
+  text-transform: uppercase;
+  line-height: 6\45px !important;
+
+}
+
+h1 span {
+  margin: 0 0 -15px 45px;
+}
+
+.MuiGrid-container .left_Sec {
+  padding: 10px 100px;
+}
+
+.MuiGrid-container.hero_container {
+  border-left: 1px solid #1A1A1A;
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.left_Sec p {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  width: 600px;
+  padding: 20px 0px;
+  color: #1A1A1A;
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  /* 33px */
+  letter-spacing: 1.1px;
+}
+
+.left_Sec .price {
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20%;
+  height: 0px;
+  letter-spacing: 1.2px;
+}
+
+.MuiBox-root.button_bg {
+  border: 1px solid black;
+  height: 39px;
+  width: 98px;
+  position: relative;
+  top: 48px;
+  left: 10px;
+}
+
+.MuiButton-root.main_button {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  background: #FE682F;
+  color: #1A1A1A;
+  border-radius: 0px;
+}
+
+.arrow1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 150px;
+}
+
+.img_wrapper img {
+  border-radius: 240px;
+  width: 450px !important;
+  height: 650px
+}
+
+.left_trend_sec {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.mid_section {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.mid_section p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.352px;
+}
+
+.trend_sec p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.448px;
+  padding-left: 100px;
+}
+
+.container.trend_container {
+  margin-bottom: 45px;
+}
+
+.mid_section p span {
+  position: absolute;
+  right: 68%;
+  bottom: -23%;
+  z-index: -999;
+  width: 80px;
+  height: 97px;
+}
+}
+@media(max-width:1024){
+  /* navbar */
+.navbar-expand-lg {
+  border-bottom: 0.70px solid #000;
+}
+
+.navbar>.container {
+  padding: 0 10px;
+}
+
+.MuiGrid-container.nav-start-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-right: 0.70px solid #1A1A1A;
+  padding: 18px 10px;
+
+}
+
+.MuiGrid-container.nav-center-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.70px solid #1A1A1A;
+  padding: 22px 0;
+}
+
+.MuiGrid-container.nav-end-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1A1A1A !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 35px !important;
+  color: #5C5555;
+}
+
+/* Hero section */
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start !important;
+  align-items: flex-end !important;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 62px !important;
+  font-style: normal;
+  font-weight: 500;
+  padding: 8px 0;
+  letter-spacing: 0.992px;
+  text-transform: uppercase;
+  line-height: 6\45px !important;
+
+}
+
+h1 span {
+  margin: 0 0 -15px 45px;
+}
+
+.MuiGrid-container .left_Sec {
+  padding: 10px 100px;
+}
+
+.MuiGrid-container.hero_container {
+  border-left: 1px solid #1A1A1A;
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.left_Sec p {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  width: 600px;
+  padding: 20px 0px;
+  color: #1A1A1A;
+  font-family: "Nunito Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  /* 33px */
+  letter-spacing: 1.1px;
+}
+
+.left_Sec .price {
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20%;
+  height: 0px;
+  letter-spacing: 1.2px;
+}
+
+.MuiBox-root.button_bg {
+  border: 1px solid black;
+  height: 39px;
+  width: 98px;
+  position: relative;
+  top: 48px;
+  left: 10px;
+}
+
+.MuiButton-root.main_button {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  background: #FE682F;
+  color: #1A1A1A;
+  border-radius: 0px;
+}
+
+.arrow1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 150px;
+}
+
+.img_wrapper img {
+  border-radius: 240px;
+  width: 450px !important;
+  height: 650px
+}
+
+.left_trend_sec {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.mid_section {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.mid_section p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.352px;
+}
+
+.trend_sec p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #1A1A1A;
+  font-family: "LEMONMILK";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.448px;
+  padding-left: 100px;
+}
+
+.container.trend_container {
+  margin-bottom: 45px;
+}
+
+.mid_section p span {
+  position: absolute;
+  right: 68%;
+  bottom: -23%;
+  z-index: -999;
+  width: 80px;
+  height: 97px;
+}
+}
+
+@media(max-width:475px) {
+  .navbar>.container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .MuiBox-root.trend_img img {
+    width: 295px;
+    height: 258px;
+  }
+
+  .MuiGrid-container img {
+    width: 75px;
+    height: 18.464px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+
+  .navbar-toggler-icon {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .MuiGrid-container.nav-start-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-right: 0px solid #1A1A1A;
+    /* padding: 18px 10px; */
+
+  }
+
+  .MuiGrid-container.nav-center-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 0px solid #1A1A1A;
+    padding: 22px 0;
+  }
+
+
+
+  .MuiGrid-container.nav-end-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #1A1A1A !important;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 35px !important;
+    color: #5C5555;
+  }
+
+  /* Hero section */
+  h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    align-items: flex-end !important;
+    color: #1A1A1A;
+    font-family: "LEMONMILK";
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 500;
+    padding: 8px 0;
+    letter-spacing: 0.992px;
+    text-transform: uppercase;
+    line-height: 6\45px !important;
+
+  }
+
+  h1 span {
+    margin: 0 0 -15px 15px;
+  }
+
+  .MuiGrid-container .left_Sec {
+    padding: 10px 20px;
+  }
+
+  .MuiGrid-container.hero_container {
+    border-left: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+  }
+
+  .MuiGrid-container .left_Sec svg {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .left_Sec p {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    width: 304px;
+    padding: 10px 0px;
+    color: #1A1A1A;
+    font-family: " Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 0.7px;
+  }
+
+  .left_Sec .price {
+    width: 250px;
+    color: #1A1A1A;
+    font-family: "LEMONMILK";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20%;
+    height: 0px;
+    letter-spacing: 1.2px;
+  }
+
+  .MuiBox-root.button_bg {
+    border: 1px solid black;
+    height: 39px;
+    width: 98px;
+    position: relative;
+    top: 48px;
+    left: 10px;
+  }
+
+  .MuiButton-root.main_button {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #000;
+    background: #FE682F;
+    color: #1A1A1A;
+    border-radius: 0px;
+  }
+
+  .arrow1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 150px;
+  }
+
+  .img_wrapper img {
+    border-radius: 240px;
+    height: 420px;
+    width: 296px;
+  }
+
+  .left_trend_sec {
+    border-bottom: 0px solid #1A1A1A;
+  }
+
+  .mid_section {
+    border-bottom: 1px solid #1A1A1A;
+  }
+
+  .mid_section p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    width: 292px;
+    height: 120px;
+    flex-shrink: 0;
+    color: #1A1A1A;
+    text-align: center;
+    font-family: "LEMONMILK";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 192.308% */
+    letter-spacing: 0.208px;
+    padding: 10px 5px;
+    border-left: 1px solid #1A1A1A;
+  }
+
+  .trend_sec p {
+    display: flex;
+    width: 326px;
+    padding: 50px 86.531px 41px 85.525px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #1A1A1A;
+    font-family: "LEMONMILK";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    /* 155% */
+    letter-spacing: 0.32px;
+  }
+
+  .container.trend_container {
+    margin: 20px 0;
+  }
+
+  .mid_section p span {
+    position: absolute;
+    right: 68%;
+    bottom: -23%;
+    z-index: -999;
+    width: 80px;
+    height: 97px;
+  }
 }
